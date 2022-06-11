@@ -37,7 +37,7 @@ help() {
 
 init() {
   if [[ -z ${GITHUB_ACTION+x} && $_opt_dry_run == 'false' ]]; then
-    echo "ERROR: It is not allowed to deploy outside of the GitHub Action envrionment."
+    echo "ERROR: It is not allowed to deploy outside of the GitHub Action environment."
     echo "Type option '-h' to see the help information."
     exit -1
   fi
