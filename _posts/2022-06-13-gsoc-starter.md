@@ -1,16 +1,17 @@
 ---
-title: GSoC Starter
+title: 'GSoC Starter: kw lore interface'
 date: 2022-06-13 20:30 -0300
 categories: kw GSoC
 tags: gsoc kw
 ---
 
-It is June 13, 2022 and it marks the oficial [beginning][gsoc-timeline] of the
+It is June 13, 2022 and it marks the official [beginning][gsoc-timeline] of the
 GSoC coding period. I was accepted as a contributor in the program to contribute
 to the *[Kernel Workflow][kw]* (**kw**) tool. My [project][gsoc-project]
 proposes the implementation of an interface to access and download patches that
 have been sent to the Linux kernel public mailing lists and are available via
-the [lore][lore] archive.
+the [lore][lore] archive, and also integrate it with the current kw features,
+such as *build* and *deploy*.
 
 I have spent the last few weeks preparing the project and organizing what my
 contributions will be. In addition to this blog, I have created issues on the
@@ -23,7 +24,7 @@ we'll use to access and download the lore archives, in other words, the back
 end.
 
 [gsoc-timeline]: https://developers.google.com/open-source/gsoc/timeline#june_13
-[gsoc-project]:  https://summerofcode.withgoogle.com/proposals/details/IVnZUTzG
+[gsoc-project]:  https://summerofcode.withgoogle.com/programs/2022/projects/RE49fQ8O
 [lore]:          https://lore.kernel.org
 [kw]:            https://github.com/kworkflow/kworkflow/
 [kw-board]:      https://github.com/kworkflow/kworkflow/projects/7
