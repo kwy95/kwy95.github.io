@@ -12,7 +12,7 @@ simplified experience for the Linux kernel developer.
 
 I currently work as a developer at a company called [PragmaCode][pragma] mostly
 doing web development using Ruby on Rails. More relevantly to this blog, I'm
-also a [GSoC][gsoc] contributor, where I'm continuing my work at **kw**, My
+also a [GSoC][gsoc] contributor, where I'm continuing my work at **kw**. My
 [project][gsoc-project] revolves around implementing an interface within this
 tool to list and apply patches from the public mailing lists hosted on the
 [lore][lore] platform.
