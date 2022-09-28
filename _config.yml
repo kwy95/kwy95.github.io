@@ -185,6 +185,7 @@ exclude:
   - '*.gem'
   - '*.gemspec'
   - tools
+  - CHANGELOG.md
   - README.md
   - LICENSE
   - gulpfile.js
